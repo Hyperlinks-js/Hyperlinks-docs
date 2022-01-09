@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](./static/logo.png)
+![logo](../static/logo.png)
 
 # Hyperlinks <small>2.0</small>
 
