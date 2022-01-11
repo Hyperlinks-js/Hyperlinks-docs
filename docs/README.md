@@ -20,7 +20,7 @@ See the [demo](https://hyperlinks.js.org/demo/) for more information.
     - light-horizontal
     - light-vertical
 
-# Contributors
+# Contributors 
 
 [@manik2375](https://github.com/Manik2375)
 
@@ -36,11 +36,11 @@ See the [demo](https://hyperlinks.js.org/demo/) for more information.
   - [Lcf.vs](https://github.com/Lcfvs)
   - [Bronzdragon](https://github.com/Bronzdragon)
 
-# Support
+# Support 
 
 - Create a [GitHub issue](https://github.com/hyperlinks-js/core/issues) for bug reports, feature requests, or questions
 - Add a ⭐️ star on [GitHub](https://github.com/hyperlinks-js/core) to support the library!
 
-# License
+# License <!-- {docsify-ignore} -->
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhyperlinks-js%2Fcore.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhyperlinks-js%2Fcore?ref=badge_large)

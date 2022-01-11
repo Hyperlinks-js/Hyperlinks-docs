@@ -2,4 +2,4 @@
 
 * Getting Started
     * [Introduction](/)
-    * [Installation](guide.md)
+    * [Installation](install.md)
