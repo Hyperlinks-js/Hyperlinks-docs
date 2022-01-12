@@ -22,7 +22,9 @@ See the [demo](https://hyperlinks.js.org/demo/) for more information.
 
 # Contributors 
 
-[@manik2375](https://github.com/Manik2375)
+<a href="https://github.com/hyperlinks-js/core/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=hyperlinks-js/core" />
+</a>
 
 # Credits 
 
