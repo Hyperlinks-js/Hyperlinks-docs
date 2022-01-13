@@ -24,7 +24,7 @@ See the [demo](https://hyperlinks.js.org/demo/) for more information.
 
 <a href="https://github.com/hyperlinks-js/core/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=hyperlinks-js/core" />
-</a>
+</a> 
 
 # Credits 
 
