@@ -40,7 +40,7 @@ module.exports = {
 - Now, test out your setup using a browser.
 
 !> Note : Please add the `/` in the end of the url in the `<a>` tag.  
-✅ ➙ `https://github.com/`  
+✔️ ➙ `https://github.com/`  
 ❌ ➙ `https://github.com`
 
 `index.html` :
