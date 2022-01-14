@@ -12,4 +12,4 @@
 - Works all by itself
 
 [GitHub](https://github.com/hyperlinks-js/core)
-[Get Started](#❯-what-is-it-)
+[Get Started](#what-is-it-)

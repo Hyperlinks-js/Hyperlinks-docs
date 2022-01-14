@@ -1,7 +1,7 @@
 
 # Installtion
 
-?> Please note that these installation instructio
+?> Please note that the below [Module Bundlers](#module-bundlers) and [CDN](#cdn) are only for example purposes. So, some of them may have been missed.
 
 ## Module Bundlers
 - If you are using webpack or any other bundler for your project, you can use any package manager to install the package.
