@@ -97,7 +97,7 @@
           function (hook, vm) {
             hook.beforeEach(function (html) {
               let url =
-                "https://github.com/hyperlinks-js/hyperlinks-js.github.io/tree/main/docs/" +
+                "https://github.com/hyperlinks-js/hyperlinks-js.github.io/tree/main/docs" +
                 vm.route.file;
               let editHtml = `<div style='text-align: right;'><a href=${url} target='_blank'>:memo: Edit Document</a></div><br><br><br>\n\n`;
               return editHtml + html;
