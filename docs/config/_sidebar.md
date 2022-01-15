@@ -2,8 +2,8 @@
 
 * Getting Started
     * [Introduction](/)
-    * [Installation](/pages/installation/)
+    * [Installation](/pages/install.md)
 * Usage/Example
-    * [Usage with Module-Bundlers](/pages/usage/bundlers.md)
-    * [Usage with CDN](/pages/usage/browser.md)
-    * [Examples](/pages/example/)
+    * [Usage with Module-Bundlers](/pages/bundlers.md)
+    * [Usage with CDN](/pages/browser.md)
+    * [Examples](/pages/example.md)
