@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <title>Hyperlinks - Docs</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Description" />
+    <meta name="description" content="Hyperlinks documentation" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
@@ -14,8 +14,9 @@
       href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
     />
     <link rel="stylesheet" href="./static/style.css" />
+    <link rel="stylesheet" href="./static/loader.css" />
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics START-->
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-N3NL2W5372"
@@ -29,47 +30,69 @@
 
       gtag("config", "G-N3NL2W5372");
     </script>
+    <!-- Global site tag (gtag.js) - Google Analytics END-->
   </head>
   <body>
-    <div id="app">Please wait...</div>
+    <div id="app">
+      <div class="lds-facebook">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
     <script>
       window.$docsify = {
-        ga: 'G-N3NL2W5372',
+        /* Analytics */
+        ga: "G-N3NL2W5372",
+        /* Basic */
         name: "Hyperlinks",
         repo: "https://github.com/hyperlinks-js/core",
+        /* Config */
         coverpage: "./config/_coverpage.md",
         loadSidebar: "./config/_sidebar.md",
+        subMaxLevel: 2,
+        maxLevel: 4,
         executeScript: true,
         routerMode: "history",
         auto2top: true,
-        subMaxLevel: 2,
-        maxLevel: 4,
         notFoundPage: "./config/_404.md",
+        /* Pagination */
         pagination: {
           previousText: "Previous",
           nextText: "Next",
           crossChapter: true,
           crossChapterText: true,
         },
+        /* Top progress-bar */
         progress: {
           position: "top",
           color: "var(--theme-color,#16afde)",
           height: "5px",
         },
+        /* Copy-code */
         copyCode: {
           buttonText: "Copy to clipboard",
           errorText: "Error",
           successText: "Copied",
         },
+        /* Full Text-Search */
         search: "auto",
         search: {
           maxAge: 86400000,
-          placeholder: "Type to search",
+          placeholder: "🔎 Search",
           noData: "Oops, nothing found!",
           depth: 6,
           hideOtherSidebarContent: true,
           namespace: "hyperlinks-docs-1",
         },
+        /* Custom Page Title */
+        customPageTitle: {
+          prefix: "Hyperlinks", 
+          suffix: false, 
+          seprator: "|", 
+          debug: false,
+        },
+        /* Plugins */
         plugins: [
           function (hook, vm) {
             hook.beforeEach(function (html) {
@@ -89,16 +112,18 @@
     <!-- Plugins start -->
     <!-- Make external scripts work -->
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
-    <!-- Google analytics -->
+    <!-- Google Analytics -->
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
     <!-- Search -->
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
     <!-- Pagination -->
     <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-    <!-- Top progress-bar -->
+    <!-- Top Progress-bar -->
     <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
     <!-- Copy-code -->
     <script src="https://unpkg.com/docsify-copy-code"></script>
+    <!-- Custom Title -->
+    <script src="//cdn.jsdelivr.net/npm/@sujaykumarh/docsify-plugin-title@1.x/dist/plugin.min.js"></script>
     <!-- Plugins end -->
   </body>
 </html>
