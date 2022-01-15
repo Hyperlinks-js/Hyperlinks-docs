@@ -42,6 +42,7 @@ module.exports = {
 !> Note : Please add the `/` in the end of the url in the `<a>` tag.  
 ✔️ ➙ `https://github.com/`  
 ❌ ➙ `https://github.com`
+- To add more links to hyperlinks, just add more `<a>` tags with the same class name `hyperlinks`.
 
 `index.html` :
 ```html
@@ -55,5 +56,6 @@ module.exports = {
     </body>
 </html>
 ```
+
 
 Now go to your browser and open the `index.html` file and See the magic ✨

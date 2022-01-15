@@ -14,38 +14,37 @@
       href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
     />
     <link rel="stylesheet" href="./static/style.css" />
-    <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N3NL2W5372"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-N3NL2W5372');
-</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-N3NL2W5372"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-N3NL2W5372");
+    </script>
   </head>
   <body>
     <div id="app">Please wait...</div>
     <script>
       window.$docsify = {
+        ga: 'G-N3NL2W5372',
         name: "Hyperlinks",
         repo: "https://github.com/hyperlinks-js/core",
-        coverpage: true,
-        loadSidebar: true,
+        coverpage: "./config/_coverpage.md",
+        loadSidebar: "./config/_sidebar.md",
         executeScript: true,
+        routerMode: "history",
         auto2top: true,
         subMaxLevel: 2,
         maxLevel: 4,
-        notFoundPage: "404.md",
-        //routerMode: 'history',
-        search: {
-          maxAge: 86400000,
-          placeholder: "Search",
-          noData: "No results found.",
-          keys: ["title", "summary"],
-        },
+        notFoundPage: "./config/_404.md",
         pagination: {
           previousText: "Previous",
           nextText: "Next",
@@ -62,20 +61,44 @@
           errorText: "Error",
           successText: "Copied",
         },
+        search: "auto",
+        search: {
+          maxAge: 86400000,
+          placeholder: "Type to search",
+          noData: "Oops, nothing found!",
+          depth: 6,
+          hideOtherSidebarContent: true,
+          namespace: "hyperlinks-docs-1",
+        },
         plugins: [
-          EditOnGithubPlugin.create(
-            "https://github.com/hyperlinks-js/docs",
-            "https://github.com/hyperlinks-js/docs",
-            "Edit on github"
-          ),
+          function (hook, vm) {
+            hook.beforeEach(function (html) {
+              let url =
+                "https://github.com/hyperlinks-js/hyperlinks-js.github.io/tree/main/docs/" +
+                vm.route.file;
+              let editHtml = `<div style='text-align: right;'><a href=${url} target='_blank'>:memo: Edit Document</a></div><br><br><br>\n\n`;
+              return editHtml + html;
+            });
+          },
         ],
       };
     </script>
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 
+    <!-- Plugins start -->
+    <!-- Make external scripts work -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+    <!-- Google analytics -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+    <!-- Search -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <!-- Pagination -->
     <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <!-- Top progress-bar -->
     <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
+    <!-- Copy-code -->
     <script src="https://unpkg.com/docsify-copy-code"></script>
+    <!-- Plugins end -->
   </body>
 </html>
