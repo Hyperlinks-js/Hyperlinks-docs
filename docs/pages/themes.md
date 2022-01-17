@@ -45,7 +45,7 @@ Vertical themes come with `width:min(60vw,35ch)`, modern CSS reducing media quer
 
 Again, similar to dark theme but brings peace.
 
-![light-vertical-image](../assets/light-horizontal-img.png)
+![light-vertical-image](../assets/light-vertical-img.png)
 
 *(Did you know? Light in air is 1.0003 times slower than light in a vacuum)*
 

@@ -16,7 +16,7 @@ The following module is a step-by-step guide to use the Hyperlinks package with 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="https://cdn.jsdelivr.net/npm/@hyperlinks-js/hyperlinks@1.0.0/dist/index.bundle.js" type="module" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@hyperlinks-js/hyperlinks@1.0.0/dist/index.bundle.js" type="module"></script>
 </head>
 <body>
     <a href="https://github.com/" class="hyperlinks">GitHub</a>
