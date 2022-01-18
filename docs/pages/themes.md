@@ -60,5 +60,6 @@ And using `prefers-color-scheme` which is from *Media Queries Level 5* specifica
 ### I am not satisfied
 
 Not satisfied with themes? really? Don't worry, because with hyperlinks you can create your custom theme too!
+- Create your own theme and test it with a [`open-source tooltip`](https://github.com/hyperlinks-js/tooltip). Then submit a pull request in the same repo.
 
 So, That's it! we will be looking forward to create more themes.
