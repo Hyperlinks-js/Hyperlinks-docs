@@ -5,7 +5,7 @@ It comes with a custom tooltip with multiple themes to help you visualize the co
 
 See the [demo](https://hyperlinks.js.org/demo/) for more information.
 
-# Features 
+# Features
 
 - Grab the meta-data of the websites in the background
 - Fancy tooltip like display for preview
@@ -14,21 +14,21 @@ See the [demo](https://hyperlinks.js.org/demo/) for more information.
 - Works with all the browsers
 - Works with all the platforms
 - Comes with 5 themes :
-    - mixed
-    - dark-horizontal
-    - dark-vertical
-    - light-horizontal
-    - light-vertical
+  - mixed
+  - dark-horizontal
+  - dark-vertical
+  - light-horizontal
+  - light-vertical
 
-# Contributors 
+# Contributors
 
 <a href="https://github.com/hyperlinks-js/core/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=hyperlinks-js/core" />
-</a> 
+  <img src="https://contrib.rocks/image?repo=hyperlinks-js/tooltip" />
+</a>
 
-# Credits 
+# Credits
 
-- Special Thanks to [`Gabriel nunes`](https://github.com/gnuns) for permitting us to use [`allOrigins`](https://github.com/gnuns/allOrigins) for the library.  
+- Special Thanks to [`Gabriel nunes`](https://github.com/gnuns) for permitting us to use [`allOrigins`](https://github.com/gnuns/allOrigins) for the library.
 - Also thanks to the below people for helping out and giving tips for the welfare of the project :
   - [Blitz](https://discord.com/app/@me/781928349915545640)
   - [Abitofevrything](https://github.com/abitofevrything)
@@ -38,7 +38,7 @@ See the [demo](https://hyperlinks.js.org/demo/) for more information.
   - [Lcf.vs](https://github.com/Lcfvs)
   - [Bronzdragon](https://github.com/Bronzdragon)
 
-# Support 
+# Support
 
 - Create a [GitHub issue](https://github.com/hyperlinks-js/core/issues) for bug reports, feature requests, or questions
 - Add a ⭐️ star on [GitHub](https://github.com/hyperlinks-js/core) to support the library!
