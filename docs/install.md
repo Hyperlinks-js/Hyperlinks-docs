@@ -23,5 +23,5 @@ pnpm add @hyperlinks-js/hyperlinks
 - If you are directly integrating it to your project, you can use a CDN to do so.
 ### [jsdelivr](https://www.jsdelivr.com/)
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@hyperlinks-js/hyperlinks@2.0.0/dist/index.bundle.js" type="module"></script>
+<script src="https://cdn.jsdelivr.net/npm/@hyperlinks-js/hyperlinks@2.1.0/dist/index.bundle.js" type="module"></script>
 ```
