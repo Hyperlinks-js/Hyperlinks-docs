@@ -3,7 +3,7 @@
 [`@hyperlinks-js/hyperlinks`](https://www.npmjs.com/package/@hyperlinks-js/hyperlinks) is a JavaScript library to make "Anchor tags" more beautiful.It fetches the content of the page and highlights the links using proxies.
 It comes with a custom tooltip with multiple themes to help you visualize the content of the page.
 
-See the [demo](https://hyperlinks.js.org/demo/) for more information.
+See the [demo](https://hyperlinks-js.github.io/#/example) for more information.
 
 # Features
 
