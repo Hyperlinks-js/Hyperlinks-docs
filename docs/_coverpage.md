@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](./static/logo.png)
+![logo](https://raw.githubusercontent.com/hyperlinks-js/.github/main/assets/Hyperlinks.png)
 
 # Hyperlinks <small>2.0</small>
 
